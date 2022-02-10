@@ -1,0 +1,32 @@
+{
+  "cards": [
+    {
+      "header": {
+        "title": "Bot - Help",
+        "subtitle": "Together we Scale.",
+        "imageUrl": "https://storage.googleapis.com/images-io/help.png"
+      },
+      "sections": [
+        {
+          "widgets": [
+            {
+              "textParagraph": {
+                "text": "Synopsis in DM:<br><b>\"keyword\"<b/><br><br>Synopsis in Space:<br><b>\"@bot keyword\"</b>"
+              }
+            }
+          ]
+        },
+        {
+          "header": "Description",
+          "widgets": [
+            {
+              "textParagraph": {
+                "text": "Description "
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
