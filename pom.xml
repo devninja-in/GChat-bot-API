@@ -59,6 +59,10 @@
             <artifactId>hibernate-types-52</artifactId>
             <version>2.9.11</version>
         </dependency>
+        <dependency>
+            <groupId>io.quarkus</groupId>
+            <artifactId>quarkus-security</artifactId>
+        </dependency>
         <!--
          <dependency>
              <groupId>io.quarkus</groupId>
