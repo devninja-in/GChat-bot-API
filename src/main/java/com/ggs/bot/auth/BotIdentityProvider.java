@@ -35,7 +35,7 @@ public class BotIdentityProvider implements IdentityProvider<TokenAuthentication
     private static final Logger LOGGER = LoggerFactory.getLogger(BotIdentityProvider.class);
 
     // Bearer Tokens received by bots will always specify this issuer.
-    private static final String CHAT_ISSUER = "chat@system.gserviceaccount.com";
+    public static final String CHAT_ISSUER = "chat@system.gserviceaccount.com";
     // Url to obtain the public certificate for the issuer.
     private static final String PUBLIC_CERT_URL_PREFIX = "https://www.googleapis.com/service_accounts/v1/metadata/x509/";
     // Intended audience of the token, which will be the project number of the bot.
